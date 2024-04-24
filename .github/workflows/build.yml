@@ -21,8 +21,13 @@ jobs:
 
     - name: List package versions
       run: |
-        sudo apt update
+        set -x
+        #sudo apt update
         sudo apt list -a kdiff3
+        echo
+        apt-cache policy kdiff3
+        echo
+        apt-cache madison kdiff3
 
     - name: Get pkg2appimage
       run: |
