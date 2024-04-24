@@ -19,14 +19,16 @@ jobs:
     - name: install fuse and libfuse2
       run: sudo apt install fuse libfuse2
 
+    - name: List package versions
+        sudo apt update
+        sudo apt list -a kdiff3
+
     - name: Get pkg2appimage
       run: |
         set -x
         wget https://github.com/AppImageCommunity/pkg2appimage/releases/download/continuous/pkg2appimage--x86_64.AppImage
         chmod +x pkg2appimage--x86_64.AppImage
         ls -lah
-        apt update
-        apt list -a kdiff3
 
     - name: Make AppImage
       run:  |
