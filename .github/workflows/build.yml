@@ -20,6 +20,7 @@ jobs:
       run: sudo apt install fuse libfuse2
 
     - name: List package versions
+      run: |
         sudo apt update
         sudo apt list -a kdiff3
 
