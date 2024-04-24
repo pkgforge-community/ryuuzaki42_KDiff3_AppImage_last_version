@@ -7,14 +7,12 @@ ingredients:
   #  - kdiff3=1.9.5
 
   sources:
-    #- deb http://archive.ubuntu.com/ubuntu/ focal main universe
-
-    - deb http://archive.ubuntu.com/ubuntu/ focal multiverse
+    - deb http://archive.ubuntu.com/ubuntu/ focal main universe
+    #- deb http://archive.ubuntu.com/ubuntu/ focal multiverse
 
   ppas:
     #- blaze/kf5
-
-    - source/kdiff3
+    #- source/kdiff3
 
 script:
   #- find . | grep ".svg"
