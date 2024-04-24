@@ -2,12 +2,12 @@ app: KDiff3
 
 ingredients:
   dist: focal
-  packages:
-    - kdiff3=1.9.5
+  #packages:
+  #  - kdiff3=1.9.5
   sources:
     - deb http://archive.ubuntu.com/ubuntu/ focal main universe
-  ppas:
-    - blaze/kf5
+  #ppas:
+  #  - blaze/kf5
 
 script:
   #- find . | grep ".svg"
