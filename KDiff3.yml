@@ -2,6 +2,8 @@ app: KDiff3
 
 ingredients:
   dist: focal
+  packages:
+    - kdiff3=1.10.7
   sources:
     - deb http://archive.ubuntu.com/ubuntu/ focal main universe
   ppas:
