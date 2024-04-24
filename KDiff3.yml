@@ -5,7 +5,7 @@ ingredients:
   packages:
     - kdiff3=1.9.5
   sources:
-    - deb http://archive.ubuntu.com/ubuntu/ noble-proposed restricted main multiverse universe
+    - deb http://archive.ubuntu.com/ubuntu/ focal main universe
   ppas:
     - blaze/kf5
 
