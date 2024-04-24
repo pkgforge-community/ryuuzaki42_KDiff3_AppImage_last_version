@@ -26,6 +26,12 @@ jobs:
         chmod +x pkg2appimage--x86_64.AppImage
         ls -lah
 
+    - name: Find .desktop
+      run:  |
+        set -x
+        ls -lahR
+        ls -lahR | grep .desktop
+
     - name: Make AppImage
       run:  |
         set -x
