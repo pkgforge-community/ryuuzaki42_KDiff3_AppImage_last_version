@@ -1,9 +1,9 @@
 app: KDiff3
 
 ingredients:
-  dist: mantic 
+  dist: noble 
   sources:
-    - deb http://archive.ubuntu.com/ubuntu/ mantic main universe
+    - deb http://archive.ubuntu.com/ubuntu/ noble main universe
 
 script:
   #- find . | grep ".svg"
