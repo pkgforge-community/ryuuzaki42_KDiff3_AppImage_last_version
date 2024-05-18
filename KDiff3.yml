@@ -1,19 +1,15 @@
 app: KDiff3
 
 ingredients:
-  dist: jammy
+  dist: mantic 
   sources:
-    - deb http://archive.ubuntu.com/ubuntu/ jammy focal main universe
-
-  ppas:
-    #- blaze/kf5
-    #- source/kdiff3
+    - deb http://archive.ubuntu.com/ubuntu/ mantic main universe
 
 script:
   #- find . | grep ".svg"
   #- find . | grep ".desktop"
-  #- pwd
-  #- ls -lah
-  #- ls -lah ../
+  - pwd
+  - ls -lah
+  - ls -lah ../
   - ls -lah ../../
   - cp ../../README.md .
