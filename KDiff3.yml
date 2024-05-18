@@ -1,9 +1,9 @@
 app: KDiff3
 
 ingredients:
-  dist: universe
+  dist: jammy
   sources:
-    - deb http://archive.ubuntu.com/ubuntu/ universe focal main
+    - deb http://archive.ubuntu.com/ubuntu/ jammy focal main universe
 
   ppas:
     #- blaze/kf5
