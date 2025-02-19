@@ -6,9 +6,9 @@
 * Need GlibC >= 2.34
 
 ---
-Version with not need GlibC: https://github.com/ryuuzaki42/KDiff3_AppImage_last_version
+Version that not need a recent GlibC: https://github.com/ryuuzaki42/KDiff3_AppImage
 
-Full version, with Qt6 e GlibC 2.34: https://github.com/ryuuzaki42/AppImage_Full_ArchImage
+Full version, with Qt6 and GlibC 2.34: https://github.com/ryuuzaki42/AppImage_Full_ArchImage
 
 ---
 https://apps.kde.org/kdiff3/
