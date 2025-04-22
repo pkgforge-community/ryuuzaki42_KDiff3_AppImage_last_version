@@ -1,9 +1,9 @@
 app: KDiff3
 
 ingredients:
-  dist: oracular 
+  dist: plucky 
   sources:
-    - deb http://archive.ubuntu.com/ubuntu/ oracular main universe
+    - deb http://archive.ubuntu.com/ubuntu/ plucky main universe
 
 script:
   #- find . | grep ".svg"
