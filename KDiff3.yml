@@ -4,8 +4,8 @@ ingredients:
   dist: resolute 
   sources:
     - deb http://archive.ubuntu.com/ubuntu/ resolute main universe
-  packages:
-    - libproxy
+  #packages:
+  #  - libproxy1v5 # Error libpxbackend-1.0.so not found 
 
 script:
   #- find . | grep ".svg"
