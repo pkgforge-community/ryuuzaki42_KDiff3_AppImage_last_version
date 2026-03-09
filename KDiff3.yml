@@ -5,7 +5,7 @@ ingredients:
   sources:
     - deb http://archive.ubuntu.com/ubuntu/ resolute main universe
   packages:
-    - libproxy1v5
+    - libproxy
 
 script:
   #- find . | grep ".svg"
