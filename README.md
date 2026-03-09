@@ -1,8 +1,11 @@
 
 # KDiff3_AppImage
 
-## Repository: https://github.com/ryuuzaki42/KDiff3_AppImage_last_version
+KDiff3 is a file and folder diff and merge tool
 
+https://apps.kde.org/kdiff3/
+
+## Repository: https://github.com/ryuuzaki42/KDiff3_AppImage_last_version
 * Need GlibC >= 2.34
 
 ---
