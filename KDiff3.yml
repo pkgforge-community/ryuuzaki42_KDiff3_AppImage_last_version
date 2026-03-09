@@ -1,9 +1,9 @@
 app: KDiff3
 
 ingredients:
-  dist: plucky 
+  dist: resolute 
   sources:
-    - deb http://archive.ubuntu.com/ubuntu/ plucky main universe
+    - deb http://archive.ubuntu.com/ubuntu/ resolute main universe
 
 script:
   #- find . | grep ".svg"
