@@ -16,7 +16,7 @@ jobs:
     # Error: /lib/x86_64-linux-gnu/libgio-2.0.so.0: undefined symbol: g_module_open_full
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v6
     - name: install fuse and libfuse2
       run: sudo apt install fuse libfuse2
 
@@ -56,15 +56,12 @@ jobs:
         pwd; ls -lah
 
     # https://github.com/marketplace/actions/upload-to-github-release
-    - uses: xresloader/upload-to-github-release@main
+    - uses: xresloader/upload-to-github-release@v1
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
           file: "out/KDiff3-*.AppImage; out/KDiff3-*.md5"
-          #delete_file: "random-name-*.txt;random-*.txt"
-          release_id: ${{ steps.create_release.outputs.id }}
           #overwrite: true
           verbose: true
-          #tags: true
           draft: false
           default_release_name: "KDiff3 V in AppImage"
