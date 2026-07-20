@@ -21,6 +21,9 @@ jobs:
     - name: install fuse and libfuse2
       run: sudo apt install fuse libfuse2
 
+    - name: Install dependencies
+      run: sudo apt install imagemagick
+
     - name: List package versions
       run: |
         set -x
