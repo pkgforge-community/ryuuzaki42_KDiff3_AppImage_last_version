@@ -25,11 +25,12 @@ jobs:
     - name: Install dependencies
       run: |
         set -x
-        sudo apt install imagemagick
-        sudo apt install libproxy1v5 # Error libpxbackend-1.0.so not found
-        sudo apt install libselinux-dev # to find
-        sudo apt install findutils # to find . -name '*.desktop'
-        sudo apt install sed
+        pwd
+        #sudo apt install imagemagick
+        #sudo apt install libproxy1v5 # Error libpxbackend-1.0.so not found
+        #sudo apt install libselinux-dev # to find
+        #sudo apt install findutils # to find . -name '*.desktop'
+        #sudo apt install sed
 
     - name: List package versions
       run: |
