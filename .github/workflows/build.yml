@@ -26,8 +26,8 @@ jobs:
         set -x
         sudo apt install imagemagick
         sudo apt install libproxy1v5 # Error libpxbackend-1.0.so not found
-        #sudo apt install libselinux # to find
-        sudo apt install find # to find . -name '*.desktop'
+        sudo apt install libselinux-dev # to find
+        sudo apt install findutils # to find . -name '*.desktop'
 
     - name: List package versions
       run: |
