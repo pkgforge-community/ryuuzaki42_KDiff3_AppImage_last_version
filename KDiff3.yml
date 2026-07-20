@@ -5,8 +5,8 @@ ingredients:
   dist: stonking 
   sources:
     - deb http://archive.ubuntu.com/ubuntu/ stonking main universe
-  packages:
-    - libproxy1v5 # Error libpxbackend-1.0.so not found
+  #packages:
+  #  - libproxy1v5 # Error libpxbackend-1.0.so not found
   #  - libselinux # to find
   #  - find # to find . -name '*.desktop'
 
